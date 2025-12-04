@@ -1,0 +1,27 @@
+When working on the Watermelon Problem, my goal was to figure out whether a given number (the watermelon’s weight) could be split into two even parts. I kept my approach simple by focusing on two main conditions.
+
+The first thing I did was read the user’s input and convert it into an integer using int(input().strip()). This makes sure I’m working with a clean number without any extra spaces.
+
+Next, I thought through the logic:
+
+A watermelon can be split into two even parts only if the total weight is even
+
+…and it must be greater than 2, because the smallest even number that can be split into two positive even numbers is 4.
+
+So in my code, I used an if statement to check both conditions:
+
+w > 2
+
+w % 2 == 0 (which means the number is even)
+
+If both conditions are true, the program prints "YES". If not, it prints "NO".
+
+Overall, my approach was to break the problem into small, clear steps:
+
+Read the input.
+
+Think through the rules.
+
+Translate those rules into simple conditions.
+
+This helped me write a clean and understandable solution that matches what the problem is asking for.
